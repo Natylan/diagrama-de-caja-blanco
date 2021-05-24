@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li>|</li>
+				<li>MENU</li>
+				<li>|</li>
+				<li><a href="gallery.html">GALLERY</a></li>
+			</ul>
+
+		</nav>
+
+	</header>
+	<div class="uno">
+    <button id="reloj">Ver hora</button>
+    <p id="hora">Aqui aparecerá la hora</p>
+
+    <!-- 
+      Esto viene en el ejemoplo
+      <button id="myBtn">Try it</button>
+    <p id="demo"></p> -->
+
+
+  </div>
+  <div class="corto1">
+    <button id="misterio">Misterio</button>
+    <p id="mensaje"></p>
+  </div>
+  <div class="corto2">
+    <!-- <p id="camaleon">Soy el texto del camaleon, cada vez que hagas click sobre cualquiera de mis palabras, el texto entero cambiarà de color, una y otra vez, volveré a cambiar de color.</p> -->
+      <p id="camaleon">Soy un texto que cambia de color, cuando hagas click sobre cualquiera de mis palabras, el texto entero cambiarà de color.</p>
+  </div>
+  <div class="dos">
+    <div class="first">
+      <img id="original1" src="/imagenes/before.JPG" alt="foto original">
+      <button class="change" onclick="document.getElementById('original1').src='/imagenes/mpckup_pez.jpg'">Change</button>
+    
+      <button class="after" onclick="document.getElementById('original1').src='/imagenes/before.JPG'">Back to original</button>
+    </div>
+
+    <div class="second">
+      <img id="original2" src="/imagenes/before_.JPG" alt="foto original">
+      <button class="change" onclick="document.getElementById('original2').src='/imagenes/escuela_penha.jpg'">Change</button>
+    
+      <button class="after" onclick="document.getElementById('original2').src='/imagenes/before_.JPG'">Back to original</button>
+    </div>
+
+    <div class="third">
+      <img id="original3" src="/imagenes/yellow_car.jpg" alt="foto original">
+      <button class="change" onclick="document.getElementById('original3').src='/imagenes/yellow_car_color.jpg'">Change</button>
+    
+      <button class="after" onclick="document.getElementById('original3').src='/imagenes/yellow_car.jpg'">Back to original</button>
+    </div>
+
+    <div class="fourth">
+      <img id="original4" src="/imagenes/cup.jpg" alt="foto original">
+      <button class="change" onclick="document.getElementById('original4').src='/imagenes/taza_eye.jpg'">Change</button>
+    
+      <button class="after" onclick="document.getElementById('original4').src='/imagenes/cup.jpg'">Back to original</button>
+    </div>
+
+
+
+  </div>
+  <div class="caja3"></div>
+  <div class="caja4">
+    <div id="blanco">
+      <div id="irisColor">
+        <div id="pupila"></div>
+        
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
